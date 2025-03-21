@@ -6,7 +6,7 @@ SIEM use case for detecting brute-force login attempts and generating alerts wit
 This project demonstrates how to detect brute-force login attempts using a SIEM (Splunk). The goal is to identify multiple failed login attempts from a single IP address within a short time frame and generate actionable alerts for further investigation.
 
 ## SIEM Platform
-- Platform: Splunk (or ELK/Graylog if applicable)
+- Platform: Splunk 
 - Data Source: Linux SSH Logs (`/var/log/auth.log`) 
 
 ## Use Case Details
